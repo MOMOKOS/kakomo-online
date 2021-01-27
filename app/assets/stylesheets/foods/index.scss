@@ -3,13 +3,14 @@ a {
 }
 
 .main {
-  background: #f8f8f8;
+  background: #f2f4f6;
 }
 
-/* 画面上部の「人生を変えるフリマアプリ」帯部分 */
+/* 画面上部の「おいしいを、囲もう」帯部分 */
 .title-contents {
   width: 100vw;
-  background-image: image-url('furima-header01.png');
+  height:90vh;
+  background-image: image-url('kakomo-top01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,11 +25,13 @@ a {
 
 .service-title {
   font-size: 8vh;
+  font-family:  serif,'arial black';
 }
 
 .service-explain {
-  font-size: 2.5vh;
+  font-size: 3vh;
   line-height: 40px;
+  font-family:  serif,'arial black';
 }
 
 .store-btn {
@@ -39,20 +42,23 @@ a {
 .apple-btn {
   margin-right: 1vw;
   height: 9vh;
+  margin-top: 15vh;
 }
 
 .google-btn {
   height: 9vh;
+  margin-top: 15vh;
 }
 
-/* //画面上部の「人生を変えるフリマアプリ」帯部分 */
+/* //画面上部の「おいしいを、囲もう」帯部分 */
 
-/* FURIMAが選ばれる3つの理由部分 */
-.select-reason-contents {
-  padding: 5vh 15vw;
+/* 「Kakomoが届けたいこと」部分 */
+.selling-point-contents {
+  padding: 5vh 5vw;
+  font-family:  serif,'arial black';
 }
 
-.select-reason-contents>.title {
+.selling-point-contents>.title {
   text-align: center;
   font-size: 3.5vh;
   font-weight: bold;
@@ -60,25 +66,25 @@ a {
   position: relative;
 }
 
-.select-reason-contents>.title::after {
+.selling-point-contents>.title::after {
   content: '';
   width: 70px;
   height: 4px;
-  background-color: #3ccace;
+  background-color: #294969;
   position: absolute;
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.reason-lists {
+.point-lists {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.reason-lists>.list {
-  width: 33vh;
+.point-lists>.list {
+  width: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,41 +96,29 @@ a {
   width: 100%;
 }
 
-.reason-list-number {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
-  text-align: center;
-  line-height: 60px;
-  background-color: #3ccace;
-  color: #fff;
-}
 
-.reason-list-text {
+.point-list-text {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 50px;
 }
 
-.reason-list-blue-text {
-  color: #3ccace;
+.point-list-blue-text {
+  
 }
 
-.reason-list-description {
+.point-list-description {
   font-size: 18px;
   margin-top: 20px;
 }
 
-/* //FURIMAが選ばれる3つの理由部分 */
+/* //「Kakomoが届けたいこと」部分 */
 
 
-/* 画面中央の「会員数日本一位」帯部分*/
+/* 「おつまみに特化した宅配サービス」帯部分*/
 .ad-contents {
   width: 100vw;
-  background-image: image-url('furima-header02.png');
+  background-image: image-url('kakomo-ad02.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -132,9 +126,10 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 5vh 15vw;
+  padding: 15vh 15vw;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  font-family:  serif,'arial black';
 }
 
 .ad-title {
@@ -143,7 +138,8 @@ a {
 }
 
 .ad-explain {
-  font-size: 2.5vh;
+  margin-top: 3vh;
+  font-size: 3vh;
   line-height: 30px;
 }
 
@@ -161,9 +157,9 @@ a {
   height: 9vh;
 }
 
-/* //画面中央の「会員数日本一位」帯部分 */
+/* /「おつまみに特化した宅配サービス」 */
 
-/* FURIMAの特徴 */
+/* Kakomoが届くまで */
 .feature-contents {
   padding: 5vh 15vw;
 }
@@ -174,13 +170,14 @@ a {
   font-weight: bold;
   margin-bottom: 5vh;
   position: relative;
+  font-family:  serif,'arial black';
 }
 
 .feature-contents>.title::after {
   content: '';
   width: 70px;
   height: 4px;
-  background-color: #3ccace;
+  background-color: #204969;
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -204,14 +201,16 @@ a {
   font-weight: bold;
   font-size: 22px;
   line-height: 50px;
+  font-family:  serif,'arial black';
 }
 
 .feature-list-description {
   font-size: 18px;
   margin-top: 20px;
+  font-family:  serif,'arial black';
 }
 
-/* //FURIMAの特徴 */
+/* //Kakomoが届くまで */
 
 /* 商品一覧 */
 

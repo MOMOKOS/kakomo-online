@@ -3,7 +3,7 @@
 
 .ad-footer-contents {
   width: 100vw;
-  background-image: image-url('furima-footer.png');
+  background-image: image-url('kakomo-footer01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -19,11 +19,15 @@
 .ad-footer-title {
   font-size: 4vh;
   margin-bottom: 2vh;
+  font-family:  serif,'arial black';
+  margin-top: 3vh;
 }
 
 .ad-footer-explain {
   font-size: 3vh;
   line-height: 30px;
+  font-family:  serif,'arial black';
+  margin-top: 3vh;
 }
 
 /* //下部広告部分 */
@@ -32,7 +36,7 @@
   width: 100vw;
   padding: 5vh 0;
   color: #FFF;
-  background-color: #272727;
+  background-color: #294969;
   text-align: center;
 }
 
@@ -50,12 +54,14 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family:  serif,'arial black';
 }
 
 .footer-link {
   color: #FFF;
   font-size: 12px;
   line-height: 30px;
+  font-family:  serif,'arial black';
 }
 
 .logo-white {
