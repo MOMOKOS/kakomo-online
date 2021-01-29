@@ -18,6 +18,10 @@ class FoodsController < ApplicationController
     end
   end
 
+  def show
+    @food = Food.find(params[:id])
+  end
+
   private
 
   def food_params
