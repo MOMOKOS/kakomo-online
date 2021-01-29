@@ -1,5 +1,5 @@
 class FoodsController < ApplicationController
-  before_action :set_food, only: [:show, :edit]
+  before_action :set_food, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
   before_action :move_to_index, except: [:index, :show, :new, :create]
 
@@ -32,6 +32,14 @@ class FoodsController < ApplicationController
       redirect_to food_path
     else
       render :edit
+    end
+  end
+
+  def destroy
+    if @food.destroy
+      redirect_to root_path
+    else
+      render :show
     end
   end
 
