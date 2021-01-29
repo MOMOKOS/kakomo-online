@@ -223,20 +223,35 @@ a {
 }
 
 .item-contents>.title {
-  font-size: 5vh;
+  font-size: 3.5vh;
   line-height: 1.4;
   font-weight: bold;
+  font-family:  serif,'arial black';
+}
+
+.item-contents >.title::after {
+  content: '';
+  width: 70px;
+  height: 4px;
+  background-color: #204969;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .item-contents>.subtitle {
-  font-size: 3vh;
+  font-size: 2vh;
   margin: 1vh 0;
   text-decoration: none;
-  color: #3ccace;
   font-weight: bold;
+  font-family:  serif,'arial black';
 }
 
+
+
 .item-lists {
+  margin-top: 5vh;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
