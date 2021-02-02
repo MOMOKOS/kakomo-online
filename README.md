@@ -50,7 +50,7 @@
 ・出品後の商品の情報を編集できます。  
   [![Image from Gyazo](https://i.gyazo.com/4816cad11ea35c830fe9105f6d181123.gif)](https://gyazo.com/4816cad11ea35c830fe9105f6d181123)
 
-- 商品削除
+- 商品削除  
 ・出品後の商品を削除できます。  
 ・全商品が削除された場合、「今は注文できません」の表示が出ます。  
   [![Image from Gyazo](https://i.gyazo.com/a56996fa4d5f9d5617e840104a6c6f33.gif)](https://gyazo.com/a56996fa4d5f9d5617e840104a6c6f33)
