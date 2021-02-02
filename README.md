@@ -35,18 +35,12 @@
 ## 実装した機能についてのGIFと説明
 - 新規登録／ログイン  
 
-  ・必要事項を入力すると新規登録ができます。  
-  [![Image from Gyazo](https://i.gyazo.com/bfe87669adb0f7948a3982a969a84a13.gif)](https://gyazo.com/bfe87669adb0f7948a3982a969a84a13)  
-
-  ・必要事項を入力するとログインできます。  
-  [![Image from Gyazo](https://i.gyazo.com/0b3841580a2afc8cd2f4a4109d3d8fe9.gif)](https://gyazo.com/0b3841580a2afc8cd2f4a4109d3d8fe9)
-
+  ・必要事項を入力すると新規登録&ログインができます。  
+  
   ・入力事項に誤りがあった場合、エラー文を表示します。  
   [![Image from Gyazo](https://i.gyazo.com/e0d141feda27ffed4cfb9eb5809fd03d.gif)](https://gyazo.com/e0d141feda27ffed4cfb9eb5809fd03d)
 
   ・ログイン中ユーザーのみ出品画面に遷移できます（ログインしていないユーザーが出品画面に行こうとした場合、ログイン画面に遷移します）。  
-  [![Image from Gyazo](https://i.gyazo.com/969968789e1f20ada957b7cc49bfb0b8.gif)](https://gyazo.com/969968789e1f20ada957b7cc49bfb0b8)
-
 
 - 商品出品    
 ・複数条件を指定した上で商品を出品することができます。  
@@ -69,10 +63,10 @@
 
 - 商品検索 （おつまみ診断）  
 ・「料理のジャンル」「シーン」「合わせたい飲み物」「アレルギー」といった条件を指定した上で、購入したい商品の検索ができるようにします。  
-  [![Image from Gyazo](https://i.gyazo.com/ac7d543f4a1efe0d5f913d8a4c28ffdb.gif)](https://gyazo.com/ac7d543f4a1efe0d5f913d8a4c28ffdb)
+  [![Image from Gyazo](https://i.gyazo.com/ac7d543f4a1efe0d5f913d8a4c28ffdb.gif)](https://gyazo.com/ac7d543f4a1efe0d5f913d8a4c28ffdb)  
+  
 ・上記全てのカテゴリーから一括検索ができる機能をつけ、よりお客様の好みに絞った商品を検索できるようにします。  
-  [![Image from Gyazo](https://i.gyazo.com/8b3c03bd4a2696de1219a71c8ab4c122.gif)](https://gyazo.com/8b3c03bd4a2696de1219a71c8ab4c122)
-
+  [![Image from Gyazo](https://i.gyazo.com/8b3c03bd4a2696de1219a71c8ab4c122.gif)](https://gyazo.com/8b3c03bd4a2696de1219a71c8ab4c122)  
 
 - 商品購入  
 ・購入したい商品をクリック後、PAY.JPを通してクレジットカード決済ができるようにします。  
