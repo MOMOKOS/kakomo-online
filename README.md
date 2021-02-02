@@ -36,7 +36,7 @@
 - 新規登録／ログイン  
 
   ・必要事項を入力すると新規登録ができます。  
-　[![Image from Gyazo](https://i.gyazo.com/bfe87669adb0f7948a3982a969a84a13.gif)](https://gyazo.com/bfe87669adb0f7948a3982a969a84a13)  
+  [![Image from Gyazo](https://i.gyazo.com/bfe87669adb0f7948a3982a969a84a13.gif)](https://gyazo.com/bfe87669adb0f7948a3982a969a84a13)  
 
   ・必要事項を入力するとログインできます。  
   [![Image from Gyazo](https://i.gyazo.com/0b3841580a2afc8cd2f4a4109d3d8fe9.gif)](https://gyazo.com/0b3841580a2afc8cd2f4a4109d3d8fe9)
